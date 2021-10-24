@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+} /*タイトル*/
+
+header:hover{
+    display: none;
+} /*タイトル消し*/
+
+/* main {
+    width: 100vw;
+    height: 100vh;
+    background-color: lemonchiffon;
+    position: relative;
+} */
+
+.area1 {
+    width: 30vw;
+    height: 30vh;
+    background-color: #573F2E;
+    position: absolute;
+}
+
+.area2 {
+    width: 70vw;
+    height: 30vh;
+    background-color: #3E2D21;
+    margin-left: 30vw;
+    position: absolute;
+}
+
+.area3 {
+    width: 70vw;
+    height: 70vh;
+    background-color: #6A4021;
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 30vh;
+}
+
+.area4 {
+    width: 30vw;
+    height: 70vh;
+    background-color: #FAEDED;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 0vw;
+}
+
+.area5 {
+    width: 70vw;
+    height: 30vh;
+    background-color: #3E2D21;
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 79vh; /*100-70×3/10という算出*/
+}
